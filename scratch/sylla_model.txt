@@ -1,0 +1,309 @@
+--- PAGE 3 ---
+two teams with the highest number of points, but it predicted individual winners for each game and these  had to be 
+combined together further to predict the teams in each group with the highest number of points.  
+     Round 2 (Round 16) is a knock -out stage.  If a team loses a game in this round, they are out of the tournament.  If a 
+team wins the game, they go to Round 3.  Two models were developed for this round to determine which teams would go 
+on to the next round.  The first model was a goal margin model which was developed to estimate the difference in goals 
+scored between the two teams playing in a game.  There were eight variables considered for entry into the model.  These 
+eight variables all involve differences between two teams in the order of “Team A” minus “Team B” with the goal margin 
+being predicted in the same order.  The intercept term was set to zero and one of the two teams playing in each game of 
+this round was randomly selected to be “Team A” with the other team being “Team B”.  The eight variables considered 
+for the model were the following with only data on teams making it to this round in World Cup 2006 being used:  
+• Difference in Average Goals Scored between two teams before World Cup 2006  
+• Difference in Average Goals Scored Against two teams before World Cup 2006  
+• Difference in Average  disciplinary Cards given by a referee before World Cup 2006  
+• Difference in Average winning percentage between two teams before World Cup 2006  
+• Difference in Average Goals Scored during Round Robin of the World Cup 2006  
+• Difference in Average Goal Scored against during Round Robin of the World Cup 2006  
+• Difference in Average disciplinary cards given during Round Robin of the World Cup 2006  
+• Difference in Average Number of wins in the Round Robin World Cup 2006.  
+ 
+     Three variables were found to be significant using the stepwise regression technique with the same entry and exit levels 
+used as before:  Difference in Average Goals Scored during Round Robin of 2006 World Cup (ADiffGS); Difference in 
+Average Goals Scored against during Round Robin of 2006 World Cup (ADiffG A), Difference in Average disciplinary 
+cards given during Round Robin of 2006 World Cup (ADiffCard s).    The model had an adjusted R2 of 0.67 and is given 
+in equation (2).  
+  
+                  (2) 
+ 
+     The second model developed for Round 2 was a logistic regression model designed to estimate the probability of 
+“Team A” winning the game.  The same set of eight variables considered in the development of the goal margin model 
+for Round 2 were also considered for this model.  Stepwise regression was used to help in the development of the model.  
+The same three variables were found to be significant as in the goal margin model for this round.  Hosmer -Lemeshow 
+(HL) was used to assess the goodness of fit, where the null hypothesis indicates that our current model fits well and the 
+alternative hypothesis indicates the model does not fit well. The p -value for HL was 0.544 meaning that we do no reject 
+the null hypothesis and we conclude that the model fit is f ine. An ROC curve was graphed for this model and the area 
+under the curve was 0.78. An ROC of 0.78 implies this model is acceptable for determining which team won the game 
+[10].  
+  The model estimated probability of a win by Team A using this model is then given by  
+              (3) 
+  
+     Two models were developed that encompassed Rounds 3-5 together.  The models were again a goal margin model and 
+a logistic regression model.  Past World Cup 2006 data were used to develop a model [1]. Again, the stepwise technique 
+was used with a select entry of 0.25 and select stay of 0.20.  The following variables were considered for entry into the 
+model:  
+• Difference in average Goals Scored between two teams up to this present round in the World Cup  
+• Difference in average Goals Scored against between two teams up to this present round in the World Cup  
+• Difference in average Cards received between two teams up to this present round in the World Cup The variables 
+found to be significant were the following:  Difference in average Goals Scored between two teams up to this present 
+round in the World Cup(AdiffGS) and Difference in average Goals Scored against between two teams up to this 
+present round in the World Cup (AdiffGA). Our adjusted R-square value was 0.62 and the model is given below:  
+  
+                   (4) 
+           
+All of the three variables considered were found to be significant for the logistic model with the difference in 
+average cards received between the two teams being denoted by ADiffCards.  The Hosmer-Lemeshow test [10] was used 
+to assess the goodness of fit for the logistic regression model. The p -value for HL was found to equal 0.29 meaning that 
+we do no reject the null hypothesis and we concluded that the model is a good fit.  An ROC curve was graphed for this 
+model and the area under the curve was found to equal 0.86 which indicates this model is excellent in determining which 
+team won the game [10].  
+  
+Journal of Advance Research in Mathematics and Statistics (ISSN: 2208-2409)
+Vol. 3 No. 7 (2016)
+3
+
+--- PAGE 4 ---
+The estimated probability of a win by “Team A” using this model is given by  
+                            (5) 
+ 
+3. Model Validation  
+In order to validate the point model for the Round Robin, we used the 32 teams that qualified for World Cup 2010 
+and the data associated with these teams.  The 32 teams were divided into 8 groups of 4 teams each with the groups being 
+labeled with letters f rom A to H.  The point model was used to predict the number of points that each team in a group 
+would receive during the Round Robin based on the four variables found to be significant in the point model:  Average 
+Goals scored by the team per game before W orld Cup 2010; Average Goals scored against the team per game before 
+World Cup 2010; Average number of cards per game received by the team before World Cup 2010; and the win probability 
+of the team before World Cup 2010.  As an example, as to how the model  was applied, we will consider the teams in 
+Group G.  Data for the four significant variables was collected for each of the teams and is given in Table 1.  The data 
+was then placed in equation (1) for each game to predict the number of points the team woul d acquire during the Round 
+Robin.  
+• Predicted number of points (Brazil) = 3.5105 x (1.83)-2.0834x (0.61)  
++0.4582x (6.33) +2.4011x (0.5) = 9.26  
+• Predicted number of points (Portugal) = 3.5105x(1.7)- 2.0834x(0.5)  
++0.4582x (4.33) +2.4011x (0.5) = 8.12  
+• Predicted number of points (Korea DPR) = 3.5105 x (0.875)- 
+2.0834x(0.625) +0.4582x (8.33) +2.4011x (0.3) = 6.31  
+• Predicted number of points (Ivory Coast) = 3.5105 x (1.16)-2.0834x (0.66)  
++0.4582x (4.66) +2.4011x (0.8) = 6.76  
+ 
+      In group G, our model predicted both Brazil and Portugal to qualify having the most points with 9 and 8 points, 
+respectively.  Both teams did actually qualify with Brazil receiving 7 points and Portugal receiving 5 points. The results 
+for all the groups are given in Table 1.  The model was correct on 23 of the 32 teams for an accuracy of 71.9%.    
+     We next went on to validate both models developed for Round 2.  As an example, as to how the goal margin model for 
+Round 2 was validated, we considered  one game played in Round 2 of World Cup 2010 between Uruguay and South 
+Korea.  The data is given in Table 2 and placed into equation (2).  
+• Goal Margin estimate (Uruguay vs South Korea) = 2.0226x(-0.33)-1.1514x (2)-0.9351x (2.0226) = 2.26 2 (Uruguay)  
+ 
+The Goal Margin model estimates number of goals scored by “Team A” (first team listed) minus number of goals 
+scored by “Team B”( second team listed). When the Goal Margin estimate is positive it is predicted “Team A” wins. 
+When the Goal Margin estimate is negative, it is predicted “Team B” wins. Our model predicted that Uruguay will win 
+by 2 goals. Uruguay did win, but won with a difference of 1 goal. All of the results for this round are given in Table 2.  
+Out of eight games our model correctly predicted s ix of teams which would win the game. In this case, the correct 
+prediction percentage was 75%.The logistic regression model for Round 2 was also validated.  To illustrate this validation 
+process, we considered the 2010 World Cup game between Uruguay and South Korea.  Data from this game was collected 
+and given in Table 3.  The data was placed in equation (3). The results were the following:  
+•  
+ 
+Since the estimated probability that Uruguay will win the game is greater than 0.5, our model is predicting Uruguay to be 
+the winner and Uruguay did win the game. All of the results for this round are given in Table 3.  
+There were 5 games out of 8 that this model predicted correctly for an accuracy of 62.5%.  
+  
+  
+  
+  
+  
+  
+  
+  
+Journal of Advance Research in Mathematics and Statistics (ISSN: 2208-2409)
+Vol. 3 No. 7 (2016)
+4
+
+--- PAGE 5 ---
+Table 1:  Validation Results from Point Model Round Robin 2010   
+Teams 
+2010   
+Predicted 
+number of 
+points  
+Actual 
+number of 
+points  
+Predicted to  
+Qualified 
+Y/N  
+Actually  
+Qualified 
+Y/N  
+AV_G 
+S  
+AV_G 
+A  
+AV_CAR 
+DS  
+Winp  
+Group A                  
+South 
+Africa  
+4.36  4  N  N  1  1  1.66  0.9  
+Mexico  6.64  4  N  Y  1.8  1.2  3  0.6  
+Uruguay  6.56  7  Y  Y  1.55  1.11  4.33  0.6  
+France  6.96  1  Y  N  1.8  0.9  2.33  0.6  
+Group B                   
+Argentina  6.15  9  Y  Y  1.27  1.11  4  0.9  
+Nigeria  6.01  1  N   1.5  0.66  2  0.5  
+Korea  
+Republic  
+6.35  4  N  Y  1.5  0.5  2  0.5  
+Greece  7.14  3  Y  N  2  1  1.66  0.6  
+Group C                  
+England  14.08  5  Y  Y  3.4  0.6  2.667  0.9  
+USA  9.22  5  Y  Y  1.9  1.3  8.33  0.6  
+Algeria  10.21  1  N  N  1.5  0.66  10.33  0.66  
+Slovenia  10.20  4  Y  N  2.2  1  6.27  0.7  
+Group D                  
+Germany  11.69  6  Y  Y  2.6  0.5  3.66  0.8  
+Australia  8.23  4  N  N  1.5  0.125  3.36  0.7  
+Serbia  8.73  3  N  N  2.2  0.8  3.2  0.5  
+Ghana  8.72  4  Y  Y  1.5  0.5  6.66  0.6  
+Group E                  
+Netherlands  10.24  9  Y  Y  2.125  0.25  3  0.8  
+Denmark  8.16  3  N  N  1.6  0.5  4.66  0.6  
+ 
+  
+Japan  6.60  6  N  Y  1.375  0.75  4.66  0.5  
+Cameroon  8.77  0  Y  N  1.5  0.33  6  0.6  
+Group F                  
+Italy  9.60  2  N  N  1.8  0.7  6.66  0.7  
+Paraguay  8.68  5  N  Y  1.33  0.833  8.33  0.8  
+New  
+Zealand  
+10.51  3  Y  N  2.33  0.833  4.66  0.8  
+Slovakia  9.77  3  Y  Y  2  1  6.33  0.8  
+Group G                  
+Brazil  9.26  7  Y  Y  1.83  0.61  6.33  0.5  
+Korea DPR  6.31  0  N  N  0.875  0.625  8.33  0.3  
+Ivory Coast  6.76  4  N  N  1.16  0.66  4.66  0.8  
+Portugal  8.12  5  Y  Y  1.7  0.5  4.33  0.5  
+Group H                  
+Spain  12.94  6  Y  Y  2.8  0.5  4.33  0.9  
+Switzerland  8.54  4  N  N  1.8  0.8  5.33  0.6  
+Honduras  7.33  1  N  N  0.7  1.1  13  0.5  
+Chile  8.67  6  Y  Y  2  1  5  0.6  
+N 
+  
+Journal of Advance Research in Mathematics and Statistics (ISSN: 2208-2409)
+Vol. 3 No. 7 (2016)
+5
+
+--- PAGE 6 ---
+Table 2:  2010 Validation Results from the Goal Margin Model-Round 2 
+ 
+ 
+Table 3:  2010 Validation Results from the Logistic Regression- Round 2  
+Team  A vs B 
+2010  
+ADiffCard 
+s  
+ADiffGA  ADiffG 
+S  
+  
+Estimated  
+Probability 
+of  
+Winning  
+Team A  
+Estimated  
+Probability of 
+Team B  
+Predicted 
+to 
+Advanced  
+Actual 
+Team 
+which Won  
+Uruguay vs 
+South Korea  
+-2  -0.67  -0.33  0.93  0.06  Uruguay  Uruguay  
+United States 
+vs Ghana  
+0.34  0.02  0.67  0.63  0.37  United 
+States  
+Ghana  
+Nethelands 
+vs Slovania  
+0.33  -1.165  0.33  0.96  0.04  Netherlan 
+ds  
+Netherland 
+s  
+Brazil vs 
+Chile  
+0.17  -0.49  0.66  0.87  0.13  Brazil  Brazil  
+Argentina vs 
+Mexico  
+0.69  -1.0833  1.33  0.98  0.01  Argentina  Argentina  
+Germany vs 
+England  
+-0.9  0  0.99  0.86  0.14  Germany  Germany  
+Paraguay vs 
+Japan  
+-0.327  0.8  0.33   0.80  Japan  Paraguay  
+Spain vs  
+Portugal  
+0.66  0.247  -1  0.09  0.91  Portugal  Spain  
+      
+     We used the past data of the World Cup 2010 [1] to validate our Goal Margin model for Rounds 3 -5. We correctly 
+predicted 5 out of 7 games for a 71% correct prediction rate. Table 4  gives values of the significant variables needed for 
+the equation between each of the two teams playing. As an example, consider the game between Uruguay and Ghana and 
+use equation (4) with data given in Table 4.   
+• Estimated Goal Margin (Uruguay vs Ghana) = 1.0067x(ADiffGS=0.5)-0.7044x (AdiffGA=-0.5)=0.86 (Uruguay)   
+ 
+     It is predicted the Uruguay will win since the goal margin is positive.  Uruguay did win the game.  All  of the results 
+are given in Table 4 for the goal margin model for Rounds 3-5.  
+     We validated the logistic model for use with Rounds 3-5 by using past data of the 2010 World Cup [1].  The values of 
+the variables found to be significant in the model given by equation (5) were found between the two teams playing.   As 
+an example of how the model was used, we will consider the 2010 World Cup game between Netherlands and Brazil.  
+The values of the variables are given in Table 5 for this game as well as all of the games.  Since the estimated probability 
+of the Netherlands winning was greater than 0.5, we predicted a win for the Netherlands and they did win. We correctly 
+predicted 5 out of 7 games for 71 % correct prediction rate.  All of the results are found in Table 5.  
+                                                                1                                         =0.65 
+ 
+ 
+  
+0.19 
+  
+Journal of Advance Research in Mathematics and Statistics (ISSN: 2208-2409)
+Vol. 3 No. 7 (2016)
+6
+
+--- PAGE 7 ---
+Table 4:  Validation from Goal Margin –Rounds 3-5 
+ 
+ 
+Table 5:  Validation for Logistic Regressionfor Rounds 3-5 
+ 
+ 
+4. Model Prediction  
+Our last step was using the models to predict the winner of the World Cup from the beginning before any games 
+began.  We predicted the winner of the 2014 World Cup starting with the teams in 2014 who qualified for the World Cup 
+match and with the knowledge of which group they were assigned to for the Round Robin.  We estimated the number of 
+points each team would acquire using equation (1) and the values of the significant variables of all teams using the 2014 
+data.  From the point model, we predicted which  of the two teams in each group would go on to Round 2.  We used the 
+goal margin model to predict which teams would make it past Round 2.  We then used the goal margin model developed 
+for Rounds 3-5 to determine the winner.   The goal margin models were us ed instead of the logistic regression models 
+since the goal margin model for Round 2 did slightly better than the logistic regression model in the validation phase and 
+both models for Rounds 3 -5 had the same correct percentage in the validation phase. Usin g this method, data on teams 
+predicted to make it to Round 2 based on the point model and the predicted matches were placed into the goal margin 
+model for Round 2 (equation (2)).  The data on teams predicted to win in Round 2 using the model in equation (2 ) and 
+play against each other in Round 3 were placed into equation (4).  In Round 2, the matches are decided by A1vs B2; C1vs 
+D2; E1 vs F2; G1 vs H2; B1 vs A2; D1 vs C2; F1 vs E2; and H1 vs G2 where A1 represents the team in group A with the 
+greatest number of points acquired during the Round Robin and B2 represents the team with the 2 nd highest number of 
+points in Group B during the Round Robin [11]. The others are defined similarly.  Data on teams predicted to win in 
+Round 3 and play each other in Round 4 was placed into equation (4) and then data on the two teams predicted to play 
+each other in Round 5 was placed into equation (4) and a winner predicted.  The predicted results for the Round Robin 
+are given in Table 6.  The predicted results for Round 2 using the Goal Margin Model are given in Table 7.   Table 8 gives 
+the predicted results for Rounds 3-5.  Germany was predicted to win the World Cup and they did win.  
+Journal of Advance Research in Mathematics and Statistics (ISSN: 2208-2409)
+Vol. 3 No. 7 (2016)
+7
+

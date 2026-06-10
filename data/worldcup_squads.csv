@@ -1,0 +1,158 @@
+Team,Player,Position,Tier,Rating
+Mexico,Raúl Rangel,GK,WISSEL,76
+Mexico,Carlos Acevedo,GK,RESERVE,74
+Mexico,Guillermo Ochoa,GK,RESERVE,74
+Mexico,Edson Álvarez,DF,WISSEL,78
+Mexico,Jesús Gallardo,DF,WISSEL,77
+Mexico,César Montes,DF,WISSEL,76
+Mexico,Johan Vásquez,DF,WISSEL,75
+Mexico,Israel Reyes,DF,WISSEL,75
+Mexico,Jorge Sánchez,DF,RESERVE,73
+Mexico,Mateo Chávez,DF,RESERVE,71
+Mexico,Orbelín Pineda,MF,WISSEL,77
+Mexico,Álvaro Fidalgo,MF,WISSEL,77
+Mexico,Luis Chávez,MF,WISSEL,76
+Mexico,Luis Romo,MF,WISSEL,75
+Mexico,Érik Lira,MF,WISSEL,75
+Mexico,Gilberto Mora,MF,RESERVE,73
+Mexico,Obed Vargas,MF,RESERVE,72
+Mexico,Brian Gutiérrez,MF,RESERVE,72
+Mexico,Julián Quiñones,AT,STARTER,81
+Mexico,Santiago Giménez,AT,WISSEL,79
+Mexico,Raúl Jiménez,AT,WISSEL,78
+Mexico,Alexis Vega,AT,WISSEL,78
+Mexico,Roberto Alvarado,AT,WISSEL,76
+Mexico,Armando González,AT,RESERVE,74
+Mexico,César Huerta,AT,RESERVE,73
+Mexico,Guillermo Martínez,AT,RESERVE,73
+France,Mike Maignan,GK,STAR,87
+France,Brice Samba,GK,STARTER,80
+France,Robin Risser,GK,WISSEL,78
+France,William Saliba,DF,STAR,88
+France,Jules Koundé,DF,STAR,86
+France,Dayot Upamecano,DF,STAR,86
+France,Theo Hernández,DF,STAR,84
+France,Ibrahima Konaté,DF,STAR,84
+France,Lucas Hernández,DF,STARTER,81
+France,Maxence Lacroix,DF,STARTER,81
+France,Lucas Digne,DF,STARTER,80
+France,Malo Gusto,DF,WISSEL,79
+France,Adrien Rabiot,MF,STAR,85
+France,Aurélien Tchouaméni,MF,STAR,84
+France,N'Golo Kanté,MF,STAR,84
+France,Rayan Cherki,MF,STAR,84
+France,Warren Zaïre-Emery,MF,STARTER,83
+France,Eduardo Camavinga,MF,STARTER,81
+France,Manu Koné,MF,STARTER,80
+France,Maghnes Akliouche,MF,STARTER,80
+France,Kylian Mbappé,AT,SUPERSTAR,91
+France,Ousmane Dembélé,AT,SUPERSTAR,90
+France,Michael Olise,AT,STAR,89
+France,Désiré Doué,AT,STAR,86
+France,Marcus Thuram,AT,STAR,85
+France,Bradley Barcola,AT,STAR,84
+France,Jean-Philippe Mateta,AT,STARTER,82
+Spain,David Raya,GK,STAR,87
+Spain,Joan Garcia,GK,STAR,86
+Spain,Unai Simón,GK,STAR,84
+Spain,Marc Cucurella,DF,STAR,85
+Spain,Marcos Llorente,DF,STAR,85
+Spain,Álex Grimaldo,DF,STAR,85
+Spain,Eric García,DF,STARTER,83
+Spain,Pau Cubarsí,DF,STARTER,83
+Spain,Aymeric Laporte,DF,STARTER,82
+Spain,Pedro Porro,DF,STARTER,82
+Spain,Robin Le Normand,DF,STARTER,81
+Spain,Marc Pubill,DF,WISSEL,77
+Spain,Pedri,MF,SUPERSTAR,90
+Spain,Rodri,MF,STAR,89
+Spain,Martín Zubimendi,MF,STAR,85
+Spain,Fabian Ruiz,MF,STAR,85
+Spain,Mikel Merino,MF,STARTER,83
+Spain,Gavi,MF,STARTER,83
+Spain,Álex Baena,MF,STARTER,81
+Spain,Lamine Yamal,AT,STAR,89
+Spain,Nico Williams,AT,STAR,85
+Spain,Ferran Torres,AT,STAR,84
+Spain,Dani Olmo,AT,STAR,84
+Spain,Mikel Oyarzabal,AT,STARTER,83
+Spain,Borja Iglesias,AT,STARTER,80
+Spain,Yéremy Pino,AT,WISSEL,79
+Spain,Víctor Muñoz,AT,WISSEL,78
+Brazil,Alisson,GK,STAR,88
+Brazil,Ederson,GK,STARTER,83
+Brazil,Weverton,GK,WISSEL,79
+Brazil,Gabriel Magalhães,DF,STAR,89
+Brazil,Marquinhos,DF,STAR,87
+Brazil,Bremer,DF,STAR,86
+Brazil,Roger Ibañez,DF,STARTER,82
+Brazil,Danilo Luiz,DF,STARTER,81
+Brazil,Wesley,DF,WISSEL,79
+Brazil,Alex Sandro,DF,WISSEL,77
+Brazil,Douglas Santos,DF,WISSEL,77
+Brazil,Léo Pereira,DF,WISSEL,76
+Brazil,Bruno Guimarães,MF,STAR,86
+Brazil,Casemiro,MF,STARTER,82
+Brazil,Fabinho,MF,STARTER,82
+Brazil,Lucas Paquetá,MF,WISSEL,79
+Brazil,Danilo Santos,MF,WISSEL,76
+Brazil,Vinícius Júnior,AT,STAR,89
+Brazil,Raphinha,AT,STAR,89
+Brazil,Neymar,AT,STARTER,83
+Brazil,Matheus Cunha,AT,STARTER,83
+Brazil,Igor Thiago,AT,STARTER,81
+Brazil,Gabriel Martinelli,AT,STARTER,81
+Brazil,Endrick,AT,WISSEL,78
+Brazil,Luiz Henrique,AT,WISSEL,78
+Brazil,Rayan,AT,WISSEL,78
+Argentina,Emiliano Martínez,GK,STAR,85
+Argentina,Gerónimo Rulli,GK,STARTER,81
+Argentina,Juan Musso,GK,STARTER,80
+Argentina,Cristian Romero,DF,STARTER,82
+Argentina,Lisandro Martínez,DF,STARTER,81
+Argentina,Nicolás Otamendi,DF,STARTER,80
+Argentina,Facundo Medina,DF,WISSEL,79
+Argentina,Nicolas Tagliafico,DF,WISSEL,78
+Argentina,Nahuel Molina,DF,WISSEL,77
+Argentina,Gonzalo Montiel,DF,WISSEL,76
+Argentina,Alexis Mac Allister,MF,STAR,85
+Argentina,Enzo Fernández,MF,STAR,85
+Argentina,Rodrigo De Paul,MF,STARTER,83
+Argentina,Exequiel Palacios,MF,STARTER,83
+Argentina,Giovani Lo Celso,MF,STARTER,81
+Argentina,Leandro Paredes,MF,STARTER,81
+Argentina,Nicolás González,MF,STARTER,81
+Argentina,Valentín Barco,MF,WISSEL,78
+Argentina,Lautaro Martínez,AT,STAR,88
+Argentina,Lionel Messi,AT,STAR,86
+Argentina,Julián Alvarez,AT,STAR,86
+Argentina,Giuliano Simeone,AT,STARTER,82
+Argentina,Nico Paz,AT,STARTER,82
+Argentina,Thiago Almada,AT,WISSEL,78
+Argentina,José Manuel López,AT,RESERVE,72
+England,Jordan Pickford,GK,STAR,85
+England,Dean Henderson,GK,STARTER,82
+England,James Trafford,GK,WISSEL,77
+England,Marc Guéhi,DF,STAR,84
+England,Ezri Konsa,DF,STAR,84
+England,Reece James,DF,STAR,84
+England,John Stones,DF,STARTER,82
+England,Nico O'Reilly,DF,STARTER,81
+England,Tino Livramento,DF,STARTER,80
+England,Dan Burn,DF,STARTER,80
+England,Djed Spence,DF,WISSEL,79
+England,Jarell Quansah,DF,WISSEL,76
+England,Jude Bellingham,MF,STAR,89
+England,Declan Rice,MF,STAR,88
+England,Morgan Rogers,MF,STAR,84
+England,Eberechi Eze,MF,STAR,84
+England,Elliot Anderson,MF,STARTER,82
+England,Kobbie Mainoo,MF,WISSEL,79
+England,Jordan Henderson,MF,WISSEL,79
+England,Harry Kane,AT,SUPERSTAR,90
+England,Bukayo Saka,AT,STAR,87
+England,Marcus Rashford,AT,STARTER,82
+England,Anthony Gordon,AT,STARTER,82
+England,Ollie Watkins,AT,STARTER,82
+England,Ivan Toney,AT,STARTER,82
+England,Noni Madueke,AT,STARTER,80

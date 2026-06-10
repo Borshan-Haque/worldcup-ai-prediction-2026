@@ -1,0 +1,141 @@
+--- PAGE 4 ---
+FIFA World Cup Predictions
+09 April 2026
+4
+The literature is pretty consistent in pointing to investor inattention and 
+sentiment swings as the main drivers of abnormal stock market returns during 
+the World Cup. Because investors are distracted by football matches, markets 
+tend to drift lower during the tournament, but if a team wins, the enthusiasm 
+this victory creates makes investors more risk-seeking and pushes up prices 
+the next day. Meanwhile, if a team loses, investors are more risk-averse (or 
+simply hungover) the next day and take fewer risks, thus creating additional 
+downward pressure on prices. 
+The model
+Football matters – so much that academics have spent some of their time 
+developing models to forecast the matches. The model used in this note has 
+its roots in a study by Robert Hoffmann, Lee Chew Ging and Bala Ramasamy 
+from the University of Nottingham.6 They show that certain economic and 
+climatic variables can predict success in international football matches:
+GDP/capita: The good thing about football is that it can be played 
+anywhere, but for a national team to be successful at the World Cup, a country 
+needs some important infrastructure. Decent football pitches and academies 
+where young players can be developed are essential to tap into the existing 
+talent pool. Countries that are too poor to invest in stadiums or academies or 
+don’t have a national talent development programme lose out. Thus, the richer 
+a country is, the better its football team will likely be. But there is a decline in 
+the marginal success rate that eventually becomes negative. If a country is too 
+rich, kids may choose other sports or video games over playing football. Even 
+today, football remains a game mostly played by working- and middle-class 
+people and very rich countries have significant difficulty in keeping young 
+talent in their programmes. 
+Population size is also an important influence. If a country has more 
+people, the talent pool is bigger, and it is more likely that the country will 
+develop world-class players who excel on the international stage. But why then 
+are countries like China and India underperforming in football? The problem is 
+that the talent pool only matters if football is a mainstream sport. In the study 
+mentioned above, the researchers found that population size matters mostly 
+for Latin American countries where football is a religion, and every kid plays 
+the game at some point in their lives.
+Another important contributing factor is temperature. If a country is too 
+cold or too hot, it becomes too difficult or even impossible to play football. The 
+ideal temperature for football seems to be 14C or roughly the average annual 
+temperature experienced in much of Southern Europe and South America. Is it 
+a wonder that apart from England in 1966 and Germany in 1954, 1974, 1990, 
+and 2014, all World Cups were won by countries from these areas?
+Finally, being a host country helps. The support from the majority of the 
+fans in a stadium gives a team that slight edge that can make the difference 
+between winning, drawing, and losing.
+Our model uses all these socioeconomic variables to predict the outcome of 
+the World Cup, but also adds the current FIFA ranking points to indicate the 
+strength of the current squad.
+Using these variables, I can explain some 55% of the variation in success 
+across nations in a World Cup. But this means that some 45% of the outcome 
+6 Hoffmann, R., L. C. Ging, and B. Ramasamy (2002). “The Socio-Economic Determinants of International 
+Soccer Performance.” Journal of applied Economics, vol. 5 (2), 253-272.
+
+--- PAGE 5 ---
+FIFA World Cup Predictions
+09 April 2026
+5
+is determined by luck. Thus, my model includes an element of chance when 
+determining the outcome of matches between any two teams. Yes, a team can 
+have a high chance of winning against another team, but upsets happen, and 
+my model takes these effects into account. 
+As mentioned above, I developed this model in 2014 to predict the outcome of 
+the World Cup in Brazil. I used the same model to predict the outcome of the 
+2018 World Cup in Russia and the 2022 World Cup in Qatar, which gives me a 
+track record of three events. Originally, this was supposed to be an exercise in 
+humility to show the world how stupid and unreliable economic models are, yet 
+economists think they can forecast everything from inflation to the pandemic to 
+football world cups.
+And the worst thing happened. I got it right. And then a second time. And a 
+third time. The result was that for the last four years, I have been inundated 
+with questions about whether I would forecast the Euros, the Rugby World 
+Cup, the Olympic Games, the Premier League, etc. And this year, I have been 
+asked nonstop since January when our predictions would be published, so 
+people could bet on the winner of the World Cup 2026. Maybe, being 
+inundated with these requests is the reason why this year, I make a very 
+unlikely prediction for the winner that subjectively feels wrong. Alas, the model 
+is the model, and I trust the system.
+Let’s be very clear: If you take this model and these forecasts seriously, 
+you are deluding yourself. If you bet money on the World Cup because of 
+this model, nobody can help you, and you shouldn’t be surprised to lose 
+money. 
+In asset management, a common observation is that fund managers who have 
+had several years of spectacular outperformance tend to attract a ton of new 
+investments. Yet, even by chance, a coin will come up heads three or four 
+times in a row. That doesn’t mean that it will come up heads again next time. 
+So, inevitably, when the string of outperformance ends for these supposedly 
+skilled fund managers, people complain and want their money back. 
+Remember that when you go online and bet your life savings on something 
+that is essentially random.
+Excuses: If I am right, it’s skill and if I am wrong, it’s 
+somebody else’s fault
+I have been working in the financial services industry for more than 20 years, 
+and if I have perfected one thing, it is how to find excuses for faulty predictions. 
+This time, some crucial characteristics of a World Cup are different. Most 
+importantly, we are dealing with a massively expanded tournament with 48 
+teams rather than 32. Plus, there is an additional knockout stage, and with 
+every knockout game, luck plays an increased role. Underdogs can beat 
+superior teams in any single game, but it is much less likely that they make it 
+out of the group stage after three games. 
+Of course, in this World Cup, almost all teams will make it out of the group 
+stage anyway, so the result will be knockout matches in the round of 32 where 
+clear underdogs are matched up against some football heavyweights. All these 
+underdogs need to do to progress is get a 0-0 or a 1-1 draw over the 120 
+minutes plus injury time and then hope for the best in a penalty shootout. If 
+
+--- PAGE 6 ---
+FIFA World Cup Predictions
+09 April 2026
+6
+that were to happen to one of the tournament favourites, like say, England, it is 
+highly likely that England will lose the penalty shootout and be eliminated.
+So, that’s one excuse down. But as James Montier so eloquently puts it in his 
+Little Book of Behavioural Investing, there are also five generic excuses for 
+forecasters that are commonly used. Here they are with James’s comments 
+and my version of the excuse for the World Cup predictions:
+1.The ‘if only’ defence: “If only the Fed had raised rates, then it would have 
+been true.” Effectively, the experts claim that they would have been correct 
+if only their advice had been followed. 
+My version for this World Cup: “If only France had made it out of the 
+group stage, they would have made it into the last 32 [change the phrases 
+“France”, “group stage”, and “last 32” as needed].”
+2.Ceteris paribus: Something outside of the model of analysis occurred; 
+therefore, it isn’t my fault.
+My version for this World Cup: “Kyllian Mbappe got injured; therefore, it 
+isn’t my fault that France didn’t make it past the group stage [change player 
+name, country and tournament stage as needed].”
+3.I was almost right: “Although the predicted outcome didn’t occur, it almost 
+did.”
+My version for this World Cup: “Although France didn’t make it into the 
+finals, they made it into the semi-finals [change country and tournament 
+stages as needed].”
+4.It just hasn’t happened, yet: “I wasn’t wrong, it just hasn’t occurred yet.” 
+My version for this World Cup: “I wasn’t wrong, I was just predicting 
+another World Cup.”
+5.The single prediction: “You can’t judge me by the performance of a single 
+forecast.” 
+My version for this World Cup: “You can’t judge me by the performance 
+of the 2026 prediction. Look at my predictions for 2014, 2018, and 2022.”
+
